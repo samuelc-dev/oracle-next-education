@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Advinhacao</title>
+</head>
+
+<body>
+
+    <input>
+    <button>Comparar com o numero secreto</button>
+
+    <script>
+    
+        function preencherVetor(qtd) {
+            var vet = [];
+            var num = 1;
+
+            while (num <= qtd) {
+                var numeroAleatorio = gerarNumAleatorio();
+                var achou = false;
+
+                for (var i = 0; i < vet.length; i++) {
+                    if (vet[i] === numeroAleatorio) {
+                        achou = true;
+                        break;
+                    }
+                }
+
+                if (achou === false && numeroAleatorio !== 0) {
+                    vet.push(numeroAleatorio);
+                    num++;
+                }
+            }
+
+            return vet;
+        }
+
+        function gerarNumAleatorio() {
+            return Math.round(Math.random() * 10);
+        }
+
+        //main
+
+        var vet = preencherVetor(3);
+
+        var input = document.querySelector("input");
+        input.focus();
+
+        var button = document.querySelector("button");
+        button.onclick = verificar;
+
+    </script>
+
+</body>
+
+</html>
