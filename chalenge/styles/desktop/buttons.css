@@ -1,0 +1,55 @@
+#criptografar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    background: #337edb;
+    border-radius: 24px;
+    flex: none;
+    justify-content: center;
+    color: #fefefe;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 19px;
+    text-align: center;
+
+}
+
+#criptografar:hover {
+    background: #7bb5fc;
+    cursor: pointer;
+}
+
+#descriptografar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    background: #EFF1FA;
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    justify-content: center;
+    color: #337edb;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 19px;
+    text-align: center;
+
+}
+
+#descriptografar:hover {
+    background: #c3c3c3;
+    color: #EFF1FA;
+    cursor: pointer;
+}

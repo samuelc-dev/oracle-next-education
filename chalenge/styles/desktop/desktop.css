@@ -1,0 +1,12 @@
+@import url("components/criptografado.css");
+@import url("header.css");
+@import url("main.css");
+@import url("components/copy.css");
+@import url("buttons.css");
+@import url("aside.css");
+
+@media (max-width: 1440px) {
+    .container{
+        width: 100%;
+    }
+}

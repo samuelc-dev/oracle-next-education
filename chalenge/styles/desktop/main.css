@@ -1,0 +1,54 @@
+@import url("buttons.css");
+
+.buttons {
+    left: 240px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    top: 885px;
+    width: 680px;
+    gap: 24px;
+    position: absolute;
+    height: 67px;
+}
+
+#text-area {
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+    width: 680px;
+    height: 500px;
+    left: 240px;
+    font-weight: 400;
+    line-height: 150%;
+    top: 168px;
+    background: #f4f3f4;
+    border: none;
+    resize: none;
+    outline: none;
+    background-color: rgba(228, 22, 204, 0);
+    font-size: 32px;
+}
+
+.alerta {
+    align-items: center;
+    display: flex;
+    position: absolute;
+    width: 252px;
+    height: 18px;
+    gap: 8px;
+    left: 240px;
+    top: 851px;
+    flex-direction: row;
+}
+
+.alerta p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #000000;
+    opacity: 0.8;
+    flex: none;
+    order: 1;
+}
