@@ -1,0 +1,10 @@
+@import url("desktop/desktop.css");
+
+html{
+  background: #acaeb6;
+}
+
+.container {
+    position: relative;
+    min-height: 100vh;
+}
